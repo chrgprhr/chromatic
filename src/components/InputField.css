@@ -11,6 +11,7 @@
 }
 
 .inputField:focus {
-    border-color: maroon;
-    background-color: maroon;
+    border-color: pink;
+    background-color: pink;
+    padding-left: 15px;
 }
