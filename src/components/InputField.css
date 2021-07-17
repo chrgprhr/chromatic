@@ -1,0 +1,16 @@
+.inputField {
+    border: 1px solid #e0e0e0;
+    padding-left: 8px;
+    height: 40px;
+    width: 100px;
+}
+
+.inputField:hover {
+    border-color: red;
+    background-color: green;
+}
+
+.inputField:focus {
+    border-color: blue;
+    background-color: blue;
+}

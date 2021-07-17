@@ -16,7 +16,8 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "build-storybook": "build-storybook",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "chromatic": "npx chromatic --project-token=a7aba281328d"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -29,8 +30,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "^4.3.5",
-    "web-vitals": "^1.0.1"
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -38,9 +38,9 @@
     "@storybook/addon-essentials": "^6.3.4",
     "@storybook/addon-links": "^6.3.4",
     "@storybook/react": "^6.3.4",
-    "babel-loader": "^8.2.2",
     "chromatic": "^5.10.0-canary.0",
-    "husky": "^6.0.0"
+    "husky": "^6.0.0",
+    "storybook-addon-pseudo-states": "^1.0.0"
   },
   "eslintConfig": {
     "extends": [
