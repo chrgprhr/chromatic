@@ -11,6 +11,6 @@
 }
 
 .inputField:focus {
-    border-color: blue;
-    background-color: blue;
+    border-color: maroon;
+    background-color: maroon;
 }
