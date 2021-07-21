@@ -9,15 +9,15 @@ const props = {
 
 export default props
 
-const Template = (args) => <InputField {...args} />;
+const Template = (args) => <><InputField {...args} /></>;
 
 export const Primary = Template.bind({});
 Primary.args = {
   
 };
 
-export const Hover = () => <InputField />
+export const Hover = () => <><InputField /></>
 Hover.parameters = { pseudo: { hover: true } }
 
-export const Focus = () => <InputField />
+export const Focus = () => <><InputField /></>
 Focus.parameters = { pseudo: { focus: true } }
