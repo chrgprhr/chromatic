@@ -3,6 +3,8 @@ import './InputField.css'
 
 export const InputField = () => {
     return (
+        <>
         <input className='inputField' />
+        </>
     )
 }

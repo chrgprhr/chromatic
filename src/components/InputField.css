@@ -3,14 +3,16 @@
     padding-left: 8px;
     height: 40px;
     width: 100px;
+    margin-top: 15px;
 }
 
 .inputField:hover {
-    border-color: red;
-    background-color: green;
+    border-color: blue;
+    background-color: blue;
 }
 
 .inputField:focus {
-    border-color: maroon;
-    background-color: maroon;
+    border-color: grey;
+    background-color: grey;
+    padding-left: 15px;
 }
